@@ -1,3 +1,12 @@
+aside {
+    border-style: solid; /*adds solid border style*/
+    border-color: rgb(63, 116, 67); /*colors border dark green*/
+    border-radius: 3px; /*rounds out border corners*/
+    padding: 5px; /*adds padding between content and borders*/
+    margin: 5px; /*adds space between border and content around it*/
+    background-color: rgb(155, 236, 195, .3); /*changes background color to light green, adds opacity to it.*/  
+}
+
 #zen-summary, #zen-explanation, #zen-participation, #zen-benefits, #zen-requirements { /*targets id zen-summary*/
     border-style: solid; /*adds solid border style*/
     border-color: rgb(63, 116, 67); /*colors border dark green*/
@@ -7,8 +16,7 @@
     background-color: rgb(155, 236, 195, .3); /*changes background color to light green, adds opacity to it.*/
 }
 
-#zen-intro, #zen-preamble, #zen-supporting, aside { /*targets both id's zen-intro zen-preamble*/
-    float: left;
+#zen-intro, #zen-preamble, #zen-supporting { /*targets both id's zen-intro zen-preamble*/
     border-style: solid;
     border-color: rgb(63, 116, 67);
     border-radius: 3px;
