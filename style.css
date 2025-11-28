@@ -1,0 +1,18 @@
+#zen-summary { /*targets id zen-summary*/
+    border-style: solid; /*adds solid border style*/
+    border-color: rgb(63, 116, 67); /*colors border dark green*/
+    border-radius: 3px; /*rounds out border corners*/
+    padding: 5px; /*adds padding between content and borders*/
+    margin: 5px; /*adds space between border and content around it*/
+    background-color: rgb(155, 236, 195, .3); /*changes background color to light green, adds opacity to it.*/
+}
+
+#zen-intro, #zen-preamble { /*targets both id's zen-intro zen-preamble*/
+    float: left;
+    border-style: solid;
+    border-color: rgb(63, 116, 67);
+    border-radius: 3px;
+    padding: 5px;
+    margin: 5px;
+    background-color: rgb(155, 236, 195, .3);
+}
