@@ -1,3 +1,4 @@
+
 h1 {
     color: rgb(30, 58, 37); /*changes text to dark green*/
     text-align: center; /*aligns the text to center*/
@@ -22,6 +23,13 @@ aside {
     padding: 5px; /*adds padding between content and borders*/
     margin: 5px; /*adds space between border and content around it*/
     background-color: rgb(155, 236, 195, .3); /*changes background color to light green, adds opacity to it.*/  
+}
+
+.page-wrapper {
+    box-shadow: 0px 0px 20px #105c23 ; /*adds dark green shadow*/
+    margin: 20px; /*adjust the margin by 20pixels*/
+    min-height: 100vh; /*fills the height of the viewport*/
+    box-sizing: border-box; /* includes padding and border*/
 }
 
 #zen-intro, #zen-preamble, #zen-summary, #zen-explanation, #zen-participation, #zen-benefits, #zen-requirements { /*targets id zen-summary*/
