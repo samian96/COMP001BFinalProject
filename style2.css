@@ -35,11 +35,12 @@ aside {
 }
 
 a:link {
-
+    color: rgb(1, 35, 129); /*changes text color to dark blue*/
 }
 
 a:hover {
-
+    cursor: pointer; /*changes curser to pointer when hovered over*/
+    color: rgb(80, 80, 255); /*changes text color to light blue when hovered over*/
 }
 
 a:visited {
