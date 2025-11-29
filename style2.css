@@ -23,6 +23,7 @@ h3 {
 
 p > div {
     font-family: Verdana, Geneva, Tahoma, sans-serif; /*changes font family to verdana*/
+    font-size: 22px; /*adjust the size of the font*/
 }
 
 aside {
