@@ -1,5 +1,6 @@
 
 h1 {
+    font-family: 'Times New Roman', Times, serif; /*changes font to times new roman family*/
     color: rgb(30, 58, 37); /*changes text to dark green*/
     text-align: center; /*aligns the text to center*/
     font-size: 54px; /*increases the size of the h1 element*/
@@ -7,13 +8,19 @@ h1 {
 }
 
 h2 {
+    font-family: 'Times New Roman', Times, serif; /*changes font to times new roman family*/
     color: rgb(30, 58, 37) ; /*changes the font color to dark green*/
     font-size: 30px; /*increases the font size*/
 }
 
 h3 {
+    font-family: 'Times New Roman', Times, serif; /*changes font to times new roman family*/
     color: rgb(30, 58, 37); /*changes the font color to dark green*/
     font-size: 20px; /*increases the font size*/
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
 }
 
 aside {
@@ -26,7 +33,6 @@ aside {
 }
 
 .page-wrapper {
-    box-shadow: 0px 0px 20px #105c23 ; /*adds dark green shadow*/
     margin: 20px; /*adjust the margin by 20pixels*/
     min-height: 100vh; /*fills the height of the viewport*/
     box-sizing: border-box; /* includes padding and border*/
