@@ -57,16 +57,14 @@ a:visited {
     border-width: 1px; /*adjust width of the border*/
 }
 
-footer{
-
-}
-
-.main-supporting {
-
+.page-wrapper {
+    display: flex; /*sets length of properties*/
+    align-items: flex-start;
 }
 
 .sidebar {
-
+    width: ;
 }
+
 
 
