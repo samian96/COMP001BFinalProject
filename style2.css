@@ -1,0 +1,44 @@
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+p > div {
+
+}
+
+aside {
+
+}
+
+a:link {
+
+}
+
+a:hover {
+
+}
+
+a:visited {
+
+}
+
+.page-wrapper {
+
+}
+
+#zen-intro, #zen-preamble, #zen-summary, #zen-explanation, #zen-participation, #zen-benefits, #zen-requirements { /*targets id zen-summary*/
+
+}
+
+#zen-supporting { /*targets both id's zen-intro zen-preamble*/
+
+}
