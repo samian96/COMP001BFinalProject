@@ -59,11 +59,17 @@ a:visited {
 
 .page-wrapper {
     display: flex; /*sets length of properties*/
-    align-items: flex-start;
+    align-items: flex-start; /*aligns items to the start*/
+}
+
+.intro {
+    width: 50%; /*sets width */
+    margin: 20px; 
 }
 
 .sidebar {
-    width: ;
+    width: 25%;
+    margin: 20px;
 }
 
 

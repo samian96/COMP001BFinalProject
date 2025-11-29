@@ -89,8 +89,4 @@ a:visited {
     background-color: rgb(155, 236, 195, .3); /*changes background color to green*/
 }
 
-.page-wrapper {
-    display: flex;
-    align-items: flex-start;
-}
 
