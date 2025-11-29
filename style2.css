@@ -27,7 +27,11 @@ p > div {
 }
 
 aside {
-
+    border-style: solid; /*adds solid style to border*/
+    border-color: black; /*changes the border to black*/
+    border-left: 5px; /*adjusted to remove the left side of the border*/
+    border-right: 5px; /*adjusted to remove the right side of the border*/
+    border-width: 1px; /*adjust width of the border*/
 }
 
 a:link {
