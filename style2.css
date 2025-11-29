@@ -1,6 +1,6 @@
 
 h1 {
-
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /*changes font family to verdana*/
 }
 
 h2 {
@@ -12,7 +12,7 @@ h3 {
 }
 
 p > div {
-
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /*changes font family to verdana*/
 }
 
 aside {
@@ -39,6 +39,6 @@ a:visited {
 
 }
 
-#zen-supporting { /*targets both id's zen-intro zen-preamble*/
+#zen-supporting { 
 
 }
