@@ -1,7 +1,11 @@
-
+h1 {
+    color: rgb(30, 58, 37); /*changes text to dark green*/
+    text-align: center; /*aligns the text to center*/
+    font-size: 54px; /*increases the size of the h1 element*/
+    text-shadow: 5px 4px 3px #105c23; /*adds shadow to h1 element, size, blurring, color*/
+}
 
 aside {
-    float: left;
     border-style: solid; /*adds solid border style*/
     border-color: rgb(63, 116, 67); /*colors border dark green*/
     border-radius: 3px; /*rounds out border corners*/
@@ -10,8 +14,7 @@ aside {
     background-color: rgb(155, 236, 195, .3); /*changes background color to light green, adds opacity to it.*/  
 }
 
-#zen-summary, #zen-explanation, #zen-participation, #zen-benefits, #zen-requirements { /*targets id zen-summary*/
-    float: left;
+#zen-intro, #zen-preamble, #zen-summary, #zen-explanation, #zen-participation, #zen-benefits, #zen-requirements { /*targets id zen-summary*/
     border-style: solid; /*adds solid border style*/
     border-color: rgb(63, 116, 67); /*colors border dark green*/
     border-radius: 3px; /*rounds out border corners*/
@@ -20,7 +23,7 @@ aside {
     background-color: rgb(155, 236, 195, .3); /*changes background color to light green, adds opacity to it.*/
 }
 
-#zen-intro, #zen-preamble, #zen-supporting { /*targets both id's zen-intro zen-preamble*/
+#zen-supporting { /*targets both id's zen-intro zen-preamble*/
     display: grid;
     grid-template-columns: .5fr .5fr .5fr .5fr;
     gap: 10px;
