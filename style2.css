@@ -8,14 +8,17 @@ body {
 
 h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif; /*changes font family to verdana*/
+    font-size: 58px; /*adjust the size of the font*/
 }
 
 h2 {
-
+     font-family: Verdana, Geneva, Tahoma, sans-serif; /*changes font family to verdana*/
+    font-size: 30px; /*adjust the size of the font*/
 }
 
 h3 {
-
+     font-family: Verdana, Geneva, Tahoma, sans-serif; /*changes font family to verdana*/
+    font-size: 22px; /*adjust the size of the font*/
 }
 
 p > div {
