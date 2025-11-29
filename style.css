@@ -1,6 +1,6 @@
 
 h1 {
-    font-family: 'Times New Roman', Times, serif; /*changes font to times new roman family*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /*changes font family to verdana*/
     color: rgb(30, 58, 37); /*changes text to dark green*/
     text-align: center; /*aligns the text to center*/
     font-size: 54px; /*increases the size of the h1 element*/
@@ -8,21 +8,21 @@ h1 {
 }
 
 h2 {
-    font-family: 'Times New Roman', Times, serif; /*changes font to times new roman family*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /*changes font family to verdana*/
     color: rgb(30, 58, 37) ; /*changes the font color to dark green*/
     font-size: 30px; /*increases the font size*/
     text-shadow: 5px 4px 3px #105c23; /*adds shadow to h1 element, size, blurring, color*/
 }
 
 h3 {
-    font-family: 'Times New Roman', Times, serif; /*changes font to times new roman family*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /*changes font family to verdana*/
     color: rgb(30, 58, 37); /*changes the font color to dark green*/
     font-size: 20px; /*increases the font size*/
     text-shadow: 5px 4px 3px #105c23; /*adds shadow to h1 element, size, blurring, color*/
 }
 
 p > div {
-    font-family: 'Times New Roman', Times, serif; /*changes font family to times new roman*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /*changes font family to verdana*/
     text-indent: 15px; /*indents the first sentence in a p element*/
     font-size: 18px; /*changes font to 17px size*/
 }
@@ -41,7 +41,7 @@ li {
 }
 
 a:link {
-    font-family: 'Times New Roman', Times, serif; /*changes font family to times new roman*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /*changes font family to verdana*/
     text-decoration: none; /*removes line underneath links*/
     color: #f70f83; /*changes link color to light pink*/
 }

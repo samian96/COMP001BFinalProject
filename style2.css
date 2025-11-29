@@ -4,27 +4,27 @@ body {
     border-radius: 3px; /*rounds out border edges*/
     border-width: 5px; /*makes the width of the border 5pixels thick*/
     padding: 5px; /*adds space between content and border by 5 pixels*/
+    margin: 20px;
 }
 
 h1 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif; /*changes font family to verdana*/
+    font-family: 'Times New Roman', Times, serif; /*changes the font to Times New Roman*/
     font-size: 58px; /*adjust the size of the font*/
     display: grid; /*displays content in grid format*/
-    grid-row-start: 1fr 1fr 1fr; /*start of the row*/
 }
 
 h2 {
-     font-family: Verdana, Geneva, Tahoma, sans-serif; /*changes font family to verdana*/
+    font-family: 'Times New Roman', Times, serif; /*changes the font to Times New Roman*/
     font-size: 30px; /*adjust the size of the font*/
 }
 
 h3 {
-     font-family: Verdana, Geneva, Tahoma, sans-serif; /*changes font family to verdana*/
+    font-family: 'Times New Roman', Times, serif; /*changes the font to Times New Roman*/
     font-size: 22px; /*adjust the size of the font*/
 }
 
 p > div {
-    font-family: Verdana, Geneva, Tahoma, sans-serif; /*changes font family to verdana*/
+    font-family: 'Times New Roman', Times, serif; /*changes the font to Times New Roman*/
     font-size: 22px; /*adjust the size of the font*/
 }
 
@@ -34,12 +34,6 @@ aside {
     border-left: 5px; /*adjusted to remove the left side of the border*/
     border-right: 5px; /*adjusted to remove the right side of the border*/
     border-width: 1px; /*adjust width of the border*/
-    display: grid; /*displays content as grid*/
-    grid-row: 1fr 1fr 1fr; /*adjust the row sizing*/
-}
-
-footer {
-
 }
 
 a:link {
@@ -61,7 +55,5 @@ a:visited {
     border-left: 5px; /*adjusted to remove the left side of the border*/
     border-right: 5px; /*adjusted to remove the right side of the border*/
     border-width: 1px; /*adjust width of the border*/
-    display: grid; /*displays content in a grid*/
-    grid-column-end: 1fr 1fr 1fr; /*adjust the size of grid*/
 }
 
