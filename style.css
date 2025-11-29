@@ -35,6 +35,21 @@ aside {
     background-color: rgb(155, 236, 195, .3); /*changes background color to light green, adds opacity to it.*/  
 }
 
+a:link {
+    font-family: 'Times New Roman', Times, serif; /*changes font family to times new roman*/
+    text-decoration: none; /*removes line underneath links*/
+    color: #f70f83; /*changes link color to light pink*/
+}
+
+a:hover {
+    cursor: pointer; /*changes curser to pointer when hovered over link*/
+    color: #7b0ff7; /*changes color when hovered over link to purple*/
+}
+
+a:visited {
+    color: #7c1649; /*changes color of link to dark pink after clicked*/
+}
+
 .page-wrapper {
     margin: 20px; /*adjust the margin by 20pixels*/
     min-height: 100vh; /*fills the height of the viewport*/
@@ -61,3 +76,4 @@ aside {
     margin: 5px;
     background-color: rgb(155, 236, 195, .3);
 }
+
