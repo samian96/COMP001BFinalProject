@@ -11,12 +11,14 @@ h2 {
     font-family: 'Times New Roman', Times, serif; /*changes font to times new roman family*/
     color: rgb(30, 58, 37) ; /*changes the font color to dark green*/
     font-size: 30px; /*increases the font size*/
+    text-shadow: 5px 4px 3px #105c23; /*adds shadow to h1 element, size, blurring, color*/
 }
 
 h3 {
     font-family: 'Times New Roman', Times, serif; /*changes font to times new roman family*/
     color: rgb(30, 58, 37); /*changes the font color to dark green*/
     font-size: 20px; /*increases the font size*/
+    text-shadow: 5px 4px 3px #105c23; /*adds shadow to h1 element, size, blurring, color*/
 }
 
 p {
