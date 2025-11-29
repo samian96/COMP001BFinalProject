@@ -22,8 +22,9 @@ h3 {
 }
 
 p {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif; /*changes font family to times new roman*/
     text-indent: 15px; /*indents the first sentence in a p element*/
+    font-size: 17px; /*changes font to 17px size*/
 }
 
 aside {
@@ -66,14 +67,14 @@ a:visited {
 }
 
 #zen-supporting { /*targets both id's zen-intro zen-preamble*/
-    display: grid;
-    grid-template-columns: .5fr .5fr .5fr .5fr;
-    gap: 10px;
-    border-style: solid;
-    border-color: rgb(63, 116, 67);
-    border-radius: 3px;
-    padding: 5px;
-    margin: 5px;
-    background-color: rgb(155, 236, 195, .3);
+    display: grid; /*displays content in a grid*/
+    grid-template-columns: .5fr .5fr .5fr .5fr; /*defines the size of each column*/
+    gap: 10px; /*adds a gap of 10 pixels between each column*/
+    border-style: solid; /*changes border to solid*/
+    border-color: rgb(63, 116, 67); /*changes border color*/
+    border-radius: 3px; /*rounds out the border by 3 pixels*/
+    padding: 5px; /*adds space by 5 pixels between content and border*/
+    margin: 5px; /*adds space by 5 pixels from outside space to the border*/
+    background-color: rgb(155, 236, 195, .3); /*changes background color to green*/
 }
 
