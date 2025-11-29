@@ -44,7 +44,7 @@ a:hover {
 }
 
 a:visited {
-
+    color: rgb(98, 26, 167); /*changes the text color to dark purple after visited*/
 }
 
 #zen-intro, #zen-preamble, #zen-summary, #zen-explanation, #zen-participation, #zen-benefits, #zen-requirements { /*targets id zen-summary*/
