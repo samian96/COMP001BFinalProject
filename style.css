@@ -36,6 +36,10 @@ aside {
     background-color: rgb(155, 236, 195, .3); /*changes background color to light green, adds opacity to it.*/  
 }
 
+li {
+    list-style-type: circle; /*changes the style to list element to open circles*/
+}
+
 a:link {
     font-family: 'Times New Roman', Times, serif; /*changes font family to times new roman*/
     text-decoration: none; /*removes line underneath links*/
@@ -55,6 +59,13 @@ a:visited {
     margin: 20px; /*adjust the margin by 20pixels*/
     min-height: 100vh; /*fills the height of the viewport*/
     box-sizing: border-box; /* includes padding and border*/
+}
+
+.design-selection, .design-archives, .zen-resources {
+    border-style: solid; /*styles the border to a solid line*/
+    border-color: rgb(63, 116, 67); /*changes border color to dark green*/
+    margin: 5px; /*adds 5pixels to the space between the contents border and outer space*/
+    padding-left: 5px; /*adds 5 pixels to the left of the padding to the border and content*/
 }
 
 #zen-intro, #zen-preamble, #zen-summary, #zen-explanation, #zen-participation, #zen-benefits, #zen-requirements { /*targets id zen-summary*/
