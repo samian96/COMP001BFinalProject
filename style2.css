@@ -1,3 +1,10 @@
+body {
+    border-style: solid; /*adds solid border style*/
+    border-color: rgba(0, 0, 0, 0.5); /*changes border color to black with transparency*/
+    border-radius: 3px; /*rounds out border edges*/
+    border-width: 5px; /*makes the width of the border 5pixels thick*/
+    padding: 5px; /*adds space between content and border by 5 pixels*/
+}
 
 h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif; /*changes font family to verdana*/
@@ -28,10 +35,6 @@ a:hover {
 }
 
 a:visited {
-
-}
-
-.page-wrapper {
 
 }
 
